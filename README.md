@@ -1,9 +1,12 @@
 # README
 
 実行環境
-・CentOS7
-・Ruby 2.3.1
-・Ruby on Rails 5.1.0
+
+CentOS7
+
+Ruby 2.3.1
+
+Ruby on Rails 5.1.0
 
 （Vagrant環境にて実行）
 
