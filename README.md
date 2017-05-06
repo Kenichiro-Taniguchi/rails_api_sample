@@ -8,7 +8,6 @@ Ruby 2.3.1
 
 Ruby on Rails 5.1.0
 
-（Vagrant環境にて実行）
 
 Todo
 
