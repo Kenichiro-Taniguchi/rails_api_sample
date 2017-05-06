@@ -1,24 +1,28 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+実行環境
+・CentOS7
+・Ruby 2.3.1
+・Ruby on Rails 5.1.0
 
-Things you may want to cover:
+（Vagrant環境にて実行）
 
-* Ruby version
+Todo
 
-* System dependencies
+```ruby:qiita.rb
+bundle install
+rails db:create
+rails db:migrate
+rails db:seed
+```
 
-* Configuration
+＊seedファイルは、自分の好きなデータを書き込んで構わない。
 
-* Database creation
+あとは、
+```ruby:qiita.rb
+rails s
+```
+でサーバーを立ち上げて、
+http://localhost:3000/books
+なりにアクセスすれば、json形式で値が返却されているのがわかる。
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
